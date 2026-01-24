@@ -2,11 +2,13 @@
 
 **Question 3:**
 --- 
-SELECT count(*)
-FROM green_tripdata
-WHERE lpep_pickup_datetime >= '2025-11-01 00:00:00'
-AND lpep_pickup_datetime < '2025-12-01 00:00:00'
-AND trip_distance <=1
+<pre>
+SELECT count(*) 
+FROM green_tripdata 
+WHERE lpep_pickup_datetime >= '2025-11-01 00:00:00' 
+AND lpep_pickup_datetime < '2025-12-01 00:00:00' 
+AND trip_distance <=1 
+</pre>
 
 **Question 4:**
 --- 
