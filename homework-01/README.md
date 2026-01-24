@@ -1,4 +1,4 @@
-Queries:
+# QUERIES:
 
 **Question 3:**
 --- 
