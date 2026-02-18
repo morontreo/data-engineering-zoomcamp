@@ -25,3 +25,6 @@ WHERE
     AND extract(year from revenue_month) = 2019
     AND extract(month from revenue_month) = 10
 "
+
+# Question 6:
+dbt --target prod --inline "select count(*) from {{ref('stg_fhv_tripdata')}}"
