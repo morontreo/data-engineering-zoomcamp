@@ -98,3 +98,15 @@ sources:
             description: Improvement surcharge
           - name: total_amount
             description: Total amount charged
+      - name: fhv_tripdata
+        description: >
+          Raw FHV trip records containing fields for dispatching base, 
+          pick-up/drop-off times, and location IDs.
+        columns:
+          - name: dispatching_base_num
+          - name: pickup_datetime
+          - name: dropOff_datetime
+          - name: PUlocationID
+          - name: DOlocationID
+          - name: SR_Flag
+          - name: Affiliated_base_number
