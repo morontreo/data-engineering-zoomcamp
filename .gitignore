@@ -210,3 +210,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# DuckDb
+.duckdb
+
+# bruin
+.bruin.yml
+
+# vscode
+.vscode
